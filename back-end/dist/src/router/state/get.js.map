@@ -1,0 +1,1 @@
+{"version":3,"file":"get.js","sourceRoot":"","sources":["../../../../src/router/state/get.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,kCAA0B;AAC1B,6CAAuC;AAEvC,eAAqB,SAAQ,cAAI;IAAjC;;QACc,cAAS,GAAG,KAAK,CAAA;IAK/B,CAAC;IAJS,MAAM;;YACR,MAAM,EAAE,GAAG,MAAM,mBAAQ,EAAE,CAAA;YAC3B,OAAO,IAAI,CAAC,MAAM,CAAC,CAAC,EAAE,EAAE,CAAC,CAAA;QAC7B,CAAC;KAAA;CACJ;AAND,4BAMC"}

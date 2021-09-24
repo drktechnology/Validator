@@ -1,0 +1,1 @@
+{"version":3,"file":"ReleaseSchema.js","sourceRoot":"","sources":["../../../../src/db/schema/ReleaseSchema.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAEpB,QAAA,OAAO,GAAG;IACrB,KAAK,EAAE,MAAM;IACb,IAAI,EAAE,MAAM;IACZ,SAAS,EAAE;QACT,IAAI,EAAE,iBAAM,CAAC,KAAK,CAAC,QAAQ;QAC3B,GAAG,EAAE,OAAO;QACZ,QAAQ,EAAE,IAAI;KACf;CACF,CAAA"}

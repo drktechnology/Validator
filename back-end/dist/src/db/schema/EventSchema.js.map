@@ -1,0 +1,1 @@
+{"version":3,"file":"EventSchema.js","sourceRoot":"","sources":["../../../../src/db/schema/EventSchema.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAEpB,QAAA,KAAK,GAAG;IACnB,SAAS,EAAE,iBAAM,CAAC,KAAK,CAAC,QAAQ;IAChC,IAAI,EAAE,MAAM;IACZ,WAAW,EAAE,MAAM;IACnB,IAAI,EAAE,MAAM;CACb,CAAA"}

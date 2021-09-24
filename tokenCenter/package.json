@@ -1,0 +1,23 @@
+{
+  "name": "drk_token_issuer",
+  "version": "1.0.0",
+  "description": "DApp to issue tokens",
+  "scripts": {
+    "deploy:test": "truffle migrate --reset --network localhost",
+    "deploy:localhost": "truffle migrate --reset --network localhost",
+    "deploy:development": "truffle migrate --reset --network development",
+    "deploy:production": "truffle migrate --reset --network production"
+  },
+  "author": "DEntwickler",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "child_process": "^1.0.2",
+    "dotenv": "^8.1.0",
+    "ethereumjs-abi": "^0.6.8",
+    "fs-extra": "^8.1.0",
+    "truffle": "^5.0.36",
+    "truffle-flattener": "^1.4.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "write": "^2.0.0"
+  }
+}

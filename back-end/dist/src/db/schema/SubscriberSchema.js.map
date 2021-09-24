@@ -1,0 +1,1 @@
+{"version":3,"file":"SubscriberSchema.js","sourceRoot":"","sources":["../../../../src/db/schema/SubscriberSchema.ts"],"names":[],"mappings":";;;AAAA,uCAAiC;AAEpB,QAAA,gBAAgB,GAAG;IAC9B,IAAI,EAAE;QACJ,IAAI,EAAE,iBAAM,CAAC,KAAK,CAAC,QAAQ;QAC3B,GAAG,EAAE,OAAO;QACZ,QAAQ,EAAE,IAAI;KACf;IACD,QAAQ,EAAE;QACR,IAAI,EAAE,IAAI;QACV,QAAQ,EAAE,KAAK;KAChB;CACF,CAAA"}
