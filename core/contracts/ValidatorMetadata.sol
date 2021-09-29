@@ -38,7 +38,7 @@ contract ValidatorMetadata {
         bytes32 _firstName,
         bytes32 _lastName,
         bytes32 _licenseId,
-        string memory _fullAddress,
+        string calldata _fullAddress,
         bytes32 _state,
         bytes32 _zipcode,
         uint _expirationDate,
@@ -86,7 +86,7 @@ contract ValidatorMetadata {
         bytes32 firstName,
         bytes32 lastName,
         bytes32 licenseId,
-        string memory fullAddress,
+        string calldata fullAddress,
         bytes32 state,
         bytes32 zipcode,
         uint expirationDate,
@@ -96,7 +96,7 @@ contract ValidatorMetadata {
         bytes32 contactEmail,
         bool isCompany
     ) {
-        ValidatorProfile memory profile = validatorProfiles[_validator];
+        ValidatorProfile calldata profile = validatorProfiles[_validator];
         firstName = profile.firstName;
         lastName = profile.lastName;
         licenseId = profile.licenseId;
