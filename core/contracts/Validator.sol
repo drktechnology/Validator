@@ -81,14 +81,14 @@ contract Validator is ValidatorMetadata, Lock, Staking, Frozen, Penalize, Premin
     // this is checked before contract deployed
     // if misstake happends, just redeploy (never happens)
     constructor(
-        address[] memory _genesisValidators,
-        address[] memory _genesisCoinbases,
-        uint[] memory _genesisRVSBalances,
-        string memory name,
-        string memory symbol,
+        address[] calldata _genesisValidators,
+        address[] calldata _genesisCoinbases,
+        uint[] calldata _genesisRVSBalances,
+        string calldata name,
+        string calldata symbol,
         uint8 decimals,
-        address[] memory _premineAddresses,
-        uint[] memory _premineBalances
+        address[] calldata _premineAddresses,
+        uint[] calldata _premineBalances
     )
         public
         Staking(name, symbol, decimals)
@@ -411,7 +411,7 @@ contract Validator is ValidatorMetadata, Lock, Staking, Frozen, Penalize, Premin
     function getValidators()
         external
         view
-        returns(address[] memory)
+        returns(address[] calldata)
     {
         // blockscout queries with coinbases instead of validators
         return coinbases;
@@ -440,7 +440,7 @@ contract Validator is ValidatorMetadata, Lock, Staking, Frozen, Penalize, Premin
             bytes32 firstName,
             bytes32 lastName,
             bytes32 licenseId,
-            string memory fullAddress,
+            string calldata fullAddress,
             bytes32 state,
             bytes32 zipcode,
             uint expirationDate,
@@ -459,7 +459,7 @@ contract Validator is ValidatorMetadata, Lock, Staking, Frozen, Penalize, Premin
         bytes32 _firstName,
         bytes32 _lastName,
         bytes32 _licenseId,
-        string memory _fullAddress,
+        string calldata _fullAddress,
         bytes32 _state,
         bytes32 _zipcode,
         uint _expirationDate,
